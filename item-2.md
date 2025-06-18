@@ -8,7 +8,7 @@ sort: 3
 
 本章では、以下の1つの画面を作成します。
 
-![](./images/screen.png)
+![](./images/screen_detail.png)
 
 また、商品詳細画面(`product_detail.php`)の作成だけでなく、商品データを操作するクラス`Product`の修正を行います。
 
