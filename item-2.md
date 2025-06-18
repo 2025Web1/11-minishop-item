@@ -58,7 +58,7 @@ class  Product  extends  DbData
 
     // --- ここから追加 ---
     // 選択された商品を取り出す
-    public  function  getItem(string  $ident): array
+    public  function  getItem(string  $ident): array|false
     {
         $sql  =  "SELECT  *  FROM  items  WHERE  ident  =  ?";
         $stmt = $this->query($sql,  [$ident]);
